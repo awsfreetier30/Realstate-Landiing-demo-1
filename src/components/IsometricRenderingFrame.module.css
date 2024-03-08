@@ -1,0 +1,123 @@
+.subscribeOurNewsletter {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  width: 526px;
+  position: relative;
+  font-size: var(--font-size);
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.emailField {
+  align-self: stretch;
+  gap: 18px 0;
+}
+.buttonFrame,
+.emailField,
+.parentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.buttonFrame {
+  align-self: stretch;
+  gap: 45px 0;
+}
+.parentForm {
+  flex: 1;
+  padding: var(--padding-93xl) 0 0;
+  box-sizing: border-box;
+  min-width: 417px;
+}
+.newsletterFormIcon {
+  height: 457px;
+  width: 1380px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 44px;
+  left: -779px;
+  border-radius: var(--br-mini);
+  object-fit: cover;
+}
+.dRenderingIsometricFdgdf1Icon {
+  height: 557px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.isometricRenderingFrame,
+.rectangleBg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleBg {
+  width: 606px;
+  position: relative;
+  min-width: 606px;
+}
+.isometricRenderingFrame {
+  width: 1342px;
+  gap: 0 94px;
+  text-align: center;
+  font-size: var(--font3-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1200px) {
+  .dRenderingIsometricFdgdf1Icon,
+  .rectangleBg {
+    flex: 1;
+  }
+  .isometricRenderingFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .subscribeOurNewsletter {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .buttonFrame {
+    gap: 22px 0;
+  }
+  .parentForm,
+  .rectangleBg {
+    min-width: 100%;
+  }
+  .isometricRenderingFrame {
+    gap: 0 47px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .subscribeOurNewsletter {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .parentForm {
+    padding-top: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+  .isometricRenderingFrame {
+    gap: 0 23px;
+  }
+}

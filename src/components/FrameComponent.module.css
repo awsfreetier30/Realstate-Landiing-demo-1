@@ -1,0 +1,253 @@
+.bestProjectOf {
+  position: relative;
+  line-height: 120%;
+}
+.bestProjectOfTheYearsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.ourRecentProjects {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameChild {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  min-height: 45px;
+}
+.wrapperGroup11Child {
+  height: 100%;
+  width: 100%;
+  min-height: 45px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 13px;
+  transform: scale(1.667);
+}
+.wrapperGroup11 {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameContainer,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex-direction: row;
+  gap: 0 16px;
+}
+.frameContainer {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.frameWrapper,
+.ourRecentProjectsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ourRecentProjectsParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.villaFrame {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--gray-color);
+  box-sizing: border-box;
+}
+.villaFrameIcon {
+  align-self: stretch;
+  height: 263px;
+  position: relative;
+  border-radius: var(--br-sm);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.sobhaHearlandIi {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  line-height: 120%;
+  font-weight: 600;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.starinactivebigIcon,
+.starinactivebigIcon1,
+.starinactivebigIcon2,
+.starinactivebigIcon3,
+.starinactivebigIcon4 {
+  height: 17.3px;
+  width: 16.6px;
+  position: relative;
+}
+.stars {
+  height: 17.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-5);
+  z-index: 1;
+}
+.starsvalue {
+  position: relative;
+  line-height: 120%;
+  z-index: 1;
+}
+.sobhaHearlandIiVillasParent,
+.starsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 15px;
+}
+.sobhaHearlandIiVillasParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 17px 0;
+  max-width: 100%;
+}
+.frameWrapper1 {
+  width: 377px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.frameParent1,
+.frameWrapper1,
+.villaFrameParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.villaFrameParent {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xl);
+}
+.frameParent1 {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  gap: 0 20px;
+  grid-template-columns: repeat(3, minmax(335px, 1fr));
+  font-size: var(--font-size);
+}
+.frameGroup,
+.frameParent,
+.landingPageInner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 45px 0;
+  font-size: var(--font3-size);
+}
+.frameParent,
+.landingPageInner {
+  align-items: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px 0;
+}
+.landingPageInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs) var(--padding-35xl) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1200px) {
+  .frameParent1 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(335px, 581px));
+  }
+}
+@media screen and (max-width: 1050px) {
+  .ourRecentProjects {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourRecentProjectsParent {
+    flex-wrap: wrap;
+  }
+  .frameParent1 {
+    grid-template-columns: minmax(335px, 1fr);
+  }
+  .frameGroup {
+    gap: 22px 0;
+  }
+  .landingPageInner {
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourRecentProjects {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .sobhaHearlandIi {
+    font-size: var(--font-size-mid);
+    line-height: 20px;
+  }
+}
